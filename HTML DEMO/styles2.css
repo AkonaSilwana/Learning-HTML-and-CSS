@@ -1,0 +1,32 @@
+.section1 {
+    color: black;
+        font-size: larger;
+        text-align: center;
+        margin: 1em;
+        
+    }
+
+    body {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+        color:black;
+        text-align: center;
+    }
+ a {
+    color: black;
+ }
+ ul {
+    font-weight: bold;
+    list-style: none;
+ }
+ button:hover {
+    background-color: rgba(142, 36, 170, 0.3);
+    color: black;
+ }
+ @media(min-width: 375px) {
+    form {
+        display: flex;
+        justify-content: center;
+        height: 30px;
+    }
+    
+ }

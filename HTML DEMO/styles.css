@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    color: grey;
+    font-size: larger;
+    text-align: center;
+    margin: 1em;
+}
+body {
+    background-color:lightgoldenrodyellow;
+    color:grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+form {
+   
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+fieldset {
+    border:none;
+}
+.first {
+ background-color: ghostwhite;
+ border-radius: 5px;
+ width:200px;
+ height:30px;
+ border-style:groove ;
+ border:none;
+ color: lightgray;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bold;
+ }
+
+select {
+    background-color: ghostwhite;
+        border-radius: 5px;
+        width: 200px;
+        height: 30px;
+        border-style: groove;
+        border: none;
+        color: darkgray;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+}
+  textarea {
+    border-radius: 5px;
+  }
+ .button {
+    background-color:lightsalmon;
+    width: 200px;
+    height: 30px;
+    border-style:groove;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    }
+    .button:hover {
+        background-color: grey;
+        color:black;
+    }

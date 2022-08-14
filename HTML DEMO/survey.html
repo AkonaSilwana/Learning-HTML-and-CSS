@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container">
+<form id="survey-form">
+   
+    <h1 id="title">Order Review Form</h1>
+    <p id="description">Please let us know how your order went.</p>
+    <fieldset>
+        <label id="name-label"><input class="first" id="name" type="text" placeholder="Name" required /></label>
+    </fieldset>
+    <fieldset>
+        <label id="email-label"><input class="first" id="email" type="email" placeholder="Email" required /></label>
+    </fieldset>
+    <fieldset>
+        <label id="number-label"><input class="first" id="number" type="number" name="age" min="18" max="50"
+                placeholder="Age" /></label>
+    </fieldset>
+    <fieldset>
+     
+        <select name="gender" id="dropdown">
+            <option value="">Gender</option>
+         <i class="fa fa-female" aria-hidden="true"><option value="female"> female</option></i>
+        <i class="fa fa-male" aria-hidden="true">  <option value="male">male</option></i>
+        <i class="fa fa-genderless" aria-hidden="true"><option value="non-binary"> Non-binary</option></i>
+            <option value="pnts">Prefer not to say</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <p>How did you hear about us:</p>
+        <input type="checkbox" value="options"><label>adverts</label>
+        <input type="checkbox" value="options"><label>social media</label>
+        <input type="checkbox" value="options"><label>word of mouth</label>
+        
+    </fieldset>
+    <fieldset>
+        <p>Please give a review:</p>
+        <textarea name="review" rows="4" placeholder="Help us improve"></textarea>
+
+</fieldset>
+<input class= "button" type="submit" value="submit"/>
+  </form>
+</div>
+</body>
+</html>
